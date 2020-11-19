@@ -33,22 +33,22 @@ function History() {
           <div className="time-block">
             <h3>
               {" "}
-              -3500 The first great civilizations develop in the Middle East
+              -3500 | The first great civilizations develop in the Middle East
             </h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3> -1200 Invention of the alphabet by the Phoenicians</h3>
+            <h3> -1200 | Invention of the alphabet by the Phoenicians</h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
             <h3>
-              -776 Les premiers jeux olympiques antiques se déroulent à Olympie,
-              en Grèce
+              -776 | The first ancient Olympic games were held in Olympia, in
+              Greece
             </h3>
           </div>
         </article>
@@ -58,13 +58,13 @@ function History() {
             <h3>
               -52 | Vercingetorix lays his arms at the feet of Julius Caesar
             </h3>
-            <p>Conquête de la Gaule par les légions romaines</p>
+            <p>Conquest of Gaul by the Roman legions</p>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>0 Naissance de Jésus-Christ (-6 ? - 4 ?)</h3>
+            <h3>0 | Birth of Jesus-Christ (-6 ? - 4 ?)</h3>
           </div>
         </article>
 
@@ -74,14 +74,13 @@ function History() {
               406 | Beginning of the barbarian invasions (Alamans, Burgundians,
               Vandals, Franks ...) in Roman Gaul
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
             <h3>
-              476 End of the Western Roman Empire End of the Western Roman
+              476 | End of the Western Roman Empire End of the Western Roman
               Empire
             </h3>
           </div>
