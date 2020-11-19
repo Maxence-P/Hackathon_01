@@ -38,22 +38,12 @@ function History() {
               {" "}
               -3500 The first great civilizations develop in the Middle East
             </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
             <h3> -1200 Invention of the alphabet by the Phoenicians</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
           </div>
         </article>
 
@@ -63,10 +53,6 @@ function History() {
               -776 Les premiers jeux olympiques antiques se déroulent à Olympie,
               en Grèce
             </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              voluptatem eum nam?
-            </p>
           </div>
         </article>
 
@@ -82,11 +68,6 @@ function History() {
         <article className="timeline">
           <div className="time-block">
             <h3>0 Naissance de Jésus-Christ (-6 ? - 4 ?)</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-              voluptatibus incidunt error repellat, quo soluta consectetur
-              deserunt quia tempora quas?
-            </p>
           </div>
         </article>
 
@@ -97,10 +78,6 @@ function History() {
               Vandals, Franks ...) in Roman Gaul
             </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p>
-              Also, Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Optio cum fugit suscipit sunt?
-            </p>
           </div>
         </article>
 
@@ -110,11 +87,6 @@ function History() {
               476 End of the Western Roman Empire End of the Western Roman
               Empire
             </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
           </div>
         </article>
       </main>
