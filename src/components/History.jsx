@@ -31,73 +31,58 @@ function History() {
 
         <article className="timeline">
           <div className="time-block">
-            <h3>-3500 | The first great civilizations develop in the Middle East</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
+            <h3>
+              {" "}
+              -3500 | The first great civilizations develop in the Middle East
+            </h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>-1200 | Invention of the alphabet by the Phoenicians</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
+            <h3> -1200 | Invention of the alphabet by the Phoenicians</h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>-776 | Les premiers jeux olympiques antiques se déroulent à Olympie, en Grèce</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              voluptatem eum nam?
-            </p>
+            <h3>
+              -776 | The first ancient Olympic games were held in Olympia, in
+              Greece
+            </h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>-52 | Vercingetorix lays his arms at the feet of Julius Caesar</h3>
-            <p>Conquête de la Gaule par les légions romaines</p>
+            <h3>
+              -52 | Vercingetorix lays his arms at the feet of Julius Caesar
+            </h3>
+            <p>Conquest of Gaul by the Roman legions</p>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>0 | Naissance de Jésus-Christ (-6 ? - 4 ?)</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-              voluptatibus incidunt error repellat, quo soluta consectetur
-              deserunt quia tempora quas?
-            </p>
+            <h3>0 | Birth of Jesus-Christ (-6 ? - 4 ?)</h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>406 | Beginning of the barbarian invasions (Alamans, Burgundians, Vandals, Franks ...) in Roman Gaul</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p>
-              Also, Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Optio cum fugit suscipit sunt?
-            </p>
+            <h3>
+              406 | Beginning of the barbarian invasions (Alamans, Burgundians,
+              Vandals, Franks ...) in Roman Gaul
+            </h3>
           </div>
         </article>
 
         <article className="timeline">
           <div className="time-block">
-            <h3>476 | End of the Western Roman Empire</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Molestias repellendus officia iusto voluptatibus saepe aliquam qui
-              adipisci voluptatum voluptate ipsam.
-            </p>
+            <h3>
+              476 | End of the Western Roman Empire End of the Western Roman
+              Empire
+            </h3>
           </div>
         </article>
       </main>
