@@ -1,10 +1,20 @@
-import React from 'react';
-import History from './components/History';
+import { Switch, Route } from 'react-router-dom';
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Quiz from './components/Quiz';
+import History from "./components/History";
 
 function App() {
   return (
-    <div className="App"> 
-    < History />
+    <div className="App">
+      <NavBar />
+      <Quiz />
+      <History />
+      {/* <Switch>
+        <Route exact path="/" component={History} />
+        <Route path="/Quiz" component={Quiz} />
+      </Switch> */}
+      <Footer />
     </div>
   );
 }
