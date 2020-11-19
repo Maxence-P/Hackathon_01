@@ -4,10 +4,80 @@ import './Quiz.css';
 const Quiz = () => {
     const questList = [
         {
-            ques: 'Chocolat ou vanille ?',
-            rep: ['Chocolat', 'Vanille'],
+            ques: 'When did the Classic Antiquity started ?',
+            rep: ['V century BC', 'VI century BC', 'VII century BC'],
+            good: '2',
+        },
+        {
+            ques: 'What event marks the end of the Classic Antiquity ?',
+            rep: ['Rome pillaging in 410', 'The deposed of Romulus Augustulus in 476'],
             good: '1',
-        }
+        },
+        {
+            ques: 'When was Rome founded ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: ' ou  ?',
+            rep: ['', ''],
+            good: '1',
+        },
+        {
+            ques: '   ?',
+            rep: ['', ''],
+            good: '1',
+        },
     ]
     const [inQuiz, setQuiz] = useState(false);
     const [quest, setQuest] = useState(0);
