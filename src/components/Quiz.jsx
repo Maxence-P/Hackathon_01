@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Quiz.css';
 
 const Quiz = () => {
     const questList = [
@@ -20,13 +20,15 @@ const Quiz = () => {
     return (
         <div className='quizWrapper'>
             {!inQuiz ?
-                <button onClick={() => {initQues(); setQuiz(true)}}>Start</button>
+                <button className='startGame' onClick={() => {initQues(); setQuiz(true)}}>Start</button>
                 :
                 <>
                     <h2>{questList[quest].ques}</h2>
-                    {questList[quest].rep.map((el, id) => (
-                        <button onClick={repon} key={`questId${id}`} id={id}>{el}</button>
-                    ))}
+                    <div className='buttonWrapper'>
+                        {questList[quest].rep.map((el, id) => (
+                            <button onClick={repon} key={`questId${id}`} id={id}>{el}</button>
+                        ))}
+                    </div>
                 </>
             }
         </div>
