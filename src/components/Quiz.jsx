@@ -88,14 +88,13 @@ const Quiz = () => {
     const seeResult = () => {
         setResultVisible(true);
     }
-
     const NextQues = () => {
         if (quest === questList.length - 1){ return seeResult() }
         setQuest(quest + 1);
     }
     const repon = (e) => {
-        // console.log(e.target.id === questList[quest].good);
         if (e.target.id === questList[quest].good) { setGoodAws( goodAws + 1 ) };
+        e.target.blur();
         NextQues();
     }
     const reloadGame = () => {
@@ -115,7 +114,7 @@ const Quiz = () => {
                             <button onClick={repon} key={`questId${id}`} id={id}>{el}</button>
                         ))}
                     </div>
-                    {result && <button onClick={reloadGame}>Try Again</button>}
+                    {result && <button className='tryAgain' onClick={reloadGame}>Try Again</button>}
                     {result && <div className='congratulation'>Congratulations {Math.floor(goodAws / (questList.length - 1) * 100)} % of right answer</div>}
                 </>
             }

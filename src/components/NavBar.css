@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: #daa27b;
+    background-color: #1e272e;
 }
 
 .navbar {
     width: 100%;
     padding: 15px;
-    background-color: rgb(190, 140, 45);
+    /* background-color: rgb(190, 140, 45); */
+    background-color:rgb(128, 142, 155);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     display: flex;
     justify-content: space-evenly;
@@ -24,7 +25,8 @@ body {
 .navbar-scroll {
     width: 100%;
     padding: 15px;
-    background-color: rgba(190, 140, 45, 0.8);
+    /* background-color: rgba(190, 140, 45, 0.8); */
+    background-color: rgba(128, 142, 155, .8);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +40,7 @@ body {
     width: 80px;
     height: 40px;
     text-align: center;
-    background-color: #000;
+    background-color: #34495e;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     color: white;
     font-size: 16px;
@@ -46,6 +48,12 @@ body {
     border-radius: 5px;
     outline: none;
     cursor: pointer;
+}
+
+.linkNavbar:hover {
+    /* color: rgb(190, 140, 45); */
+    color: rgb(202, 153, 48);
+    transition: 0.5s ease;
 }
 
 .linkNavbar:focus {
