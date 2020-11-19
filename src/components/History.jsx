@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function App () {
-    return
+function History() {
+  return (
     <header>
-        <h1>Bienvenue</h1>
-    
+      <h1>Bienvenue</h1>
     </header>
+  );
 }
 
-export default App
+export default History;

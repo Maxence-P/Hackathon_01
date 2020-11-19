@@ -1,9 +1,10 @@
-
+import React from 'react';
+import History from './components/History';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App"> 
+    < History />
     </div>
   );
 }
