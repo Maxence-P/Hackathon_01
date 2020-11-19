@@ -1,11 +1,11 @@
-
 .quizWrapper {
-    /* background-color: rgb(255, 198, 156); */
     background-color: rgb(190, 140, 45);
     width: 80%;
-    margin: 8% 10%;
+    height: 400px;
+    margin: 25% 10%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 0;
     border-radius: 10px;
@@ -15,10 +15,11 @@
 
 .quizWrapper h2 {
     padding: 0 0 20px;
+    text-align: center;
 }
 
 .quizWrapper button {
-    margin: 0 10px;
+    margin: 10px;
     padding: 10px;
     border-radius: 7px;
     outline: none;
@@ -27,6 +28,7 @@
     color: white;
     background-color: rgb(0, 0, 0);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 
 .quizWrapper .startGame {
@@ -35,4 +37,22 @@
 
 .quizWrapper button:focus {
     box-shadow: 0px 0px 0px 2px rgb(100, 100, 100);
+}
+
+.buttonWrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.congratulation {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 500px) {
+    .quizWrapper {
+        width: 60%;
+        margin: 8% 20%;
+    }
 }
