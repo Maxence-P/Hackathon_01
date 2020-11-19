@@ -1,3 +1,8 @@
+.truc {
+    height: 85.5vh;
+    width: 100%;
+    overflow: hidden;
+}
 
 .cardWrapper {
     width: 100%;

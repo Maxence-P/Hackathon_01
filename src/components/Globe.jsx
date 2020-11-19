@@ -75,14 +75,14 @@ function Globe() {
           </div>
         </div>
       )}
+      <div className="truc">
         <ReactGlobe
-            height="80.5vh"
             markers={markers}
             options={{ markerTooltipRenderer }}
-            width="98.9vw"
             onClickMarker={onClickMarker}
             onDefocus={onDefocus}
         />
+      </div>
     </div>
   );
 }
