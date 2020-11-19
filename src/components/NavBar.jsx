@@ -17,7 +17,8 @@ const NavBar = () => {
     return (
         <div className={scroll ? "navbar-scroll" : "navbar"}>
             <Link to="/"><button className="linkNavbar">Home</button></Link>
-            <Link to="/Quiz"><button className="linkNavbar">Quiz</button></Link>
+            <Link to="/Quiz/1"><button className="linkNavbar">Quiz</button></Link>
+            <Link to="/Globe/1"><button className="linkNavbar">Globe</button></Link>
         </div>
     )
 }

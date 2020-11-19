@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Quiz from './components/Quiz';
 import History from "./components/History";
 import { Fragment } from 'react';
+import Globe from './components/Globe';
 
 function App() {
   return (
@@ -11,16 +12,23 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" render={
-          props => 
+          props =>
           <Fragment>
             <History />
             <Footer {...props}/>
           </Fragment>
         } />
-        <Route path="/:id" render={
-          props => 
+        <Route path="/Quiz/:id" render={
+          props =>
           <Fragment>
             <Quiz />
+            <Footer {...props} />
+          </Fragment>
+        } />
+        <Route path="/Globe" render={
+          props =>
+          <Fragment>
+            <Globe />
             <Footer {...props} />
           </Fragment>
         } />
