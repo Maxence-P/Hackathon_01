@@ -116,7 +116,7 @@ const Quiz = () => {
                         ))}
                     </div>
                     {result && <button onClick={reloadGame}>Try Again</button>}
-                    {result && <div className='congratulation'>Congratulations {Math.floor(goodAws / questList.length * 100)} % of right answer</div>}
+                    {result && <div className='congratulation'>Congratulations {Math.floor(goodAws / (questList.length - 1) * 100)} % of right answer</div>}
                 </>
             }
         </div>
