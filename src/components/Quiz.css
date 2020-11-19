@@ -15,10 +15,11 @@
 
 .quizWrapper h2 {
     padding: 0 0 20px;
+    text-align: center;
 }
 
 .quizWrapper button {
-    margin: 0 10px;
+    margin: 5px 10px;
     padding: 10px;
     border-radius: 7px;
     outline: none;
@@ -34,5 +35,18 @@
 }
 
 .quizWrapper button:focus {
-    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0);
+    box-shadow: 0px 0px 0px 2px rgb(100, 100, 100);
 }
+
+.buttonWrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.congratulation {
+    margin-top: 10px;
+}
+
+

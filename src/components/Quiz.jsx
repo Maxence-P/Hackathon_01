@@ -82,24 +82,41 @@ const Quiz = () => {
     ]
     const [inQuiz, setQuiz] = useState(false);
     const [quest, setQuest] = useState(0);
-    const initQues = () => {
-        setQuest(Math.floor(Math.random() * questList.length));
+    const [goodAws, setGoodAws] = useState(0);
+    const [result, setResultVisible] = useState(false)
+
+    const seeResult = () => {
+        setResultVisible(true);
+    }
+
+    const NextQues = () => {
+        if (quest === questList.length - 1){ return seeResult() }
+        setQuest(quest + 1);
     }
     const repon = (e) => {
-        console.log(e.target.id === questList[quest].good);
+        // console.log(e.target.id === questList[quest].good);
+        if (e.target.id === questList[quest].good) { setGoodAws( goodAws + 1 ) };
+        NextQues();
+    }
+    const reloadGame = () => {
+        setQuest(0);
+        setResultVisible(false);
+        setGoodAws(0);
     }
     return (
         <div className='quizWrapper'>
             {!inQuiz ?
-                <button className='startGame' onClick={() => {initQues(); setQuiz(true)}}>Start</button>
+                <button className='startGame' onClick={() => {setQuiz(true)}}>Start</button>
                 :
                 <>
-                    <h2>{questList[quest].ques}</h2>
+                    {!result && <h2>{questList[quest].ques}</h2>}
                     <div className='buttonWrapper'>
-                        {questList[quest].rep.map((el, id) => (
+                        {!result && questList[quest].rep.map((el, id) => (
                             <button onClick={repon} key={`questId${id}`} id={id}>{el}</button>
                         ))}
                     </div>
+                    {result && <button onClick={reloadGame}>Try Again</button>}
+                    {result && <div className='congratulation'>Congratulations {Math.floor(goodAws / questList.length * 100)} % of right answer</div>}
                 </>
             }
         </div>
