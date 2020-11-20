@@ -15,8 +15,8 @@ const Quiz = () => {
         },
         {
             ques: 'When was Rome founded ?',
-            rep: ['600 BC', '700 BC', '750 BC', '800 BC'],
-            good: '3',
+            rep: ['650 BC', '700 BC', '750 BC', '800 BC'],
+            good: '2',
         },
         {
             ques: 'When was the Olympic Games first established ?',
@@ -51,7 +51,7 @@ const Quiz = () => {
         {
             ques: 'How many Olympians were in Greek Mythology ?',
             rep: ['10', '11', '12', '13'],
-            good: '4',
+            good: '3',
         },
         {
             ques: 'How many Gods were in Roman Mythology ? (hard question)',
