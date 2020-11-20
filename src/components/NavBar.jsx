@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = (props) => {
 
     const [scroll, changeScroll] = useState(false);
 
@@ -16,9 +16,9 @@ const NavBar = () => {
 
     return (
         <div className={scroll ? "navbar-scroll" : "navbar"}>
-            <Link to="/"><button className="linkNavbar">Home</button></Link>
-            <Link to="/Quiz/1"><button className="linkNavbar">Quiz</button></Link>
-            <Link to="/Globe/1"><button className="linkNavbar">Globe</button></Link>
+            <Link to="/"><button className={props.match.params.id === undefined ? "linkNavbar linkNavbarActive" : "linkNavbar"}>Home</button></Link>
+            <Link to="/Quiz/1"><button className={props.match.params.id === "1" ? "linkNavbar linkNavbarActive" : "linkNavbar"}>Quiz</button></Link>
+            <Link to="/Globe/2"><button className={props.match.params.id === "2" ? "linkNavbar linkNavbarActive" : "linkNavbar"}>Globe</button></Link>
         </div>
     )
 }

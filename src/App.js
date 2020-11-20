@@ -9,11 +9,11 @@ import Globe from './components/Globe';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Switch>
-        <Route exact path="/" render={
-          props =>
+    <Switch>
+      <Route exact path="/" render={
+        props =>
           <Fragment>
+            <NavBar {...props}/>
             <History />
             <Footer {...props}/>
           </Fragment>
@@ -21,13 +21,15 @@ function App() {
         <Route path="/Quiz/:id" render={
           props =>
           <Fragment>
+            <NavBar {...props}/>
             <Quiz />
             <Footer {...props} />
           </Fragment>
         } />
-        <Route path="/Globe" render={
+        <Route path="/Globe/:id" render={
           props =>
           <Fragment>
+            <NavBar {...props}/>
             <Globe />
             <Footer {...props} />
           </Fragment>
