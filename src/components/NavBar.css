@@ -52,7 +52,8 @@ body {
 
 .linkNavbarActive {
     color: white !important;
-    background-color: rgb(128, 142, 155);
+    background-color: rgb(105, 117, 128);
+    cursor: initial !important;
 }
 
 .linkNavbar:hover {
