@@ -9,7 +9,7 @@ function Globe() {
       color: "red",
       coordinates: [37.971449, 23.724896],
       value: 175,
-      name: "Temple of athena",
+      name: "Parthenon",
       img: 'https://media.discordapp.net/attachments/777923556696260618/778992946133336084/The_Parthenon_in_Athens.jpg?width=915&height=643',
     },
     {
